@@ -1,0 +1,15 @@
+---
+assignment: hw2
+
+compilers:
+  - &cpp 'g++ --std=c++11 $@ -o $@.exec'
+
+files:
+  - [ latency-throughput-123.txt]
+  - [est-total-cycles-ex1.cpp, *cpp]
+  - [est-total-cycles-ex2.cpp, *cpp]
+  - [relative-costs.txt]
+  - [essential-numeric-sums-1234.txt]
+tests:
+  - [ est-total-cycles-ex1.cpp, $@.exec ]
+  - [ est-total-cycles-ex2.cpp, $@.exec ]

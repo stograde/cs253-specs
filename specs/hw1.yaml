@@ -1,0 +1,17 @@
+---
+assignment: hw1
+
+compilers:
+  - &cpp 'g++ --std=c++11 $@ -o $@.exec'
+
+files:
+  - [ Exercises-q1-onetoten.cpp, *cpp]
+  - [ Exercises-q2-output.txt ]
+  - [Sorting-q1-englishalgorithm.txt]
+  - [Sorting-q3-algorithm.cpp, *cpp]
+  - [Sorting-q4-algorithm.cpp, *cpp]
+  - [Reading-q2-response.txt]
+tests:
+  - [ Exercises-q1-onetoten.cpp, $@.exec ]
+  - [ Sorting-q3-algorithm.cpp, $@.exec ]
+  - [ Sorting-q4-algorithm.cpp, $@.exec]
