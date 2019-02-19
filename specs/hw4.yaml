@@ -1,0 +1,12 @@
+---
+assignment: hw4
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw4-1.txt]
+  - [timing.cpp]
+
+test:
+  - [Exercises-q1-onetoten.cpp, $@.exec]
