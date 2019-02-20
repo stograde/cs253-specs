@@ -1,0 +1,12 @@
+---
+assignment: hw6
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw6-1.txt]
+  - [hw6-2.txt]
+  - [hw6-3.txt]
+test:
+  - [timing-r.cpp, $@.exec]
