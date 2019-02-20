@@ -9,4 +9,4 @@ files:
   - [timing-r.cpp]
 
 test:
-  - [Exercises-q1-onetoten.cpp, $@.exec]
+  - [timing-r.cpp, $@.exec]
