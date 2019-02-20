@@ -6,7 +6,7 @@ compilers:
 
 files:
   - [hw4-1.txt]
-  - [timing.cpp]
+  - [timing-r.cpp]
 
 test:
   - [Exercises-q1-onetoten.cpp, $@.exec]
