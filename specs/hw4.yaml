@@ -8,5 +8,5 @@ files:
   - [hw4-1.txt]
   - [timing-r.cpp]
 
-test:
+tests:
   - [timing-r.cpp, $@.exec]
