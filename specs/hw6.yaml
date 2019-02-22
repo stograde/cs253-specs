@@ -8,7 +8,5 @@ files:
   - [hw6-1.txt]
   - [hw6-2.txt]
   - [hw6-3.txt]
-  - [timing-r.cpp, *cpp]
-  
-tests:
+test:
   - [timing-r.cpp, $@.exec]
