@@ -6,7 +6,7 @@ compilers:
 
 files:
   - [hw4-1.txt]
-  - [timing-r.cpp]
+  - [timing-r.cpp, *cpp]
 
-test:
+tests:
   - [timing-r.cpp, $@.exec]
