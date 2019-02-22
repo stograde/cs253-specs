@@ -1,0 +1,13 @@
+---
+assignment: hw7
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw7-vector.cpp, *cpp
+  - [hw7-1.txt]
+  - [hw7-sort.cpp, *cpp]
+tests:
+  - [hw7-vector.cpp, $@.exec]
+  - [hw7-sort.cpp, $@.exec]
