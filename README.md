@@ -1,6 +1,8 @@
 This document has been sourced from the cs251tk-specs at https://github.com/StoDevX/cs251-specs
 
 # cs253-specs
+This document defines grading information for the CS department at Saint Olaf College. The information allows TA's to grade homework using the automated tool `cs251tk` specifically for the Algorithms and Data Structures course (CS 253).
+
 This document is a work in progress.
 
 ## Examples
