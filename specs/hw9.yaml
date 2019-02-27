@@ -1,0 +1,9 @@
+---
+assignment: hw9
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw9-1.txt]
+  - [hw9-2.txt]
