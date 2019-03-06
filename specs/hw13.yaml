@@ -1,0 +1,19 @@
+---
+
+assignment: hw13
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw13-1.txt]
+  - [hw13-2.txt]
+  - [hw13-intbin.cpp, *cpp]
+  - [hw13-strbin.cpp, *cpp]
+  - [hw13-stack.cpp, *cpp]
+  
+tests:
+    - [hw13-intbin.cpp, $@.exec]
+    - [hw13-strbin.cpp, $@.exec]
+    - [hw13-stack.cpp, $@.exec]
+    
