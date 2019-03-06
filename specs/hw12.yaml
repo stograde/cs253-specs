@@ -12,7 +12,7 @@ files:
   - [hw12-strbin.cpp, *cpp]
   - [hw12-stack.cpp, *cpp]
   
-  tests:
+tests:
     - [hw12-intbin.cpp, $@.exec]
     - [hw12-strbin.cpp, $@.exec]
     - [hw12-stack.cpp, $@.exec]
