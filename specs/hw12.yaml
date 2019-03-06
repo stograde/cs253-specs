@@ -1,0 +1,19 @@
+---
+
+assignment: hw12
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw12-1.txt]
+  - [hw12-2.txt]
+  - [hw12-intbin.cpp, *cpp]
+  - [hw12-strbin.cpp, *cpp]
+  - [hw12-stack.cpp, *cpp]
+  
+tests:
+    - [hw12-intbin.cpp, $@.exec]
+    - [hw12-strbin.cpp, $@.exec]
+    - [hw12-stack.cpp, $@.exec]
+    
