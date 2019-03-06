@@ -7,13 +7,9 @@ compilers:
 
 files:
   - [hw13-1.txt]
-  - [hw13-2.txt]
-  - [hw13-intbin.cpp, *cpp]
-  - [hw13-strbin.cpp, *cpp]
-  - [hw13-stack.cpp, *cpp]
-  
+  - [hw13-graph.cpp, *cpp]
+  - [hw13-dfs.cpp, *cpp]  
 tests:
-    - [hw13-intbin.cpp, $@.exec]
-    - [hw13-strbin.cpp, $@.exec]
-    - [hw13-stack.cpp, $@.exec]
+    - [hw13-graph.cpp, $@.exec]
+    - [hw13-dfs.cpp, $@.exec]
     
