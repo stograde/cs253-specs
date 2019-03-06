@@ -7,13 +7,9 @@ compilers:
 
 files:
   - [hw12-1.txt]
-  - [hw12-2.txt]
-  - [hw12-intbin.cpp, *cpp]
-  - [hw12-strbin.cpp, *cpp]
-  - [hw12-stack.cpp, *cpp]
-  
+  - [hw12-graph.cpp, *cpp]
+  - [hw12-dfs.cpp, *cpp]  
 tests:
-    - [hw12-intbin.cpp, $@.exec]
-    - [hw12-strbin.cpp, $@.exec]
-    - [hw12-stack.cpp, $@.exec]
+    - [hw12-graph.cpp, $@.exec]
+    - [hw12-dfs.cpp, $@.exec]
     
