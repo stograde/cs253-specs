@@ -7,7 +7,6 @@ compilers:
 
 files:
   - [hw12-1.txt]
-  - [hw12-2.txt]
   - [hw12-intbin.cpp, *cpp]
   - [hw12-strbin.cpp, *cpp]
   - [hw12-stack.cpp, *cpp]
