@@ -1,0 +1,13 @@
+---
+
+assignment: hw14
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw14-1.txt]
+  - [hw14-water.cpp, *cpp]
+tests:
+    - [hw14-water.cpp, $@.exec]
+    
