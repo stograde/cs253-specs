@@ -7,7 +7,12 @@ compilers:
 
 files:
   - [hw14-1.txt]
-  - [hw14-water.cpp, *cpp]
+  - [hw14-array.cpp, *cpp]
+  - [hw14-linked.cpp, *cpp]
+  - [hw14-stack.cpp, *cpp]
+  
 tests:
-    - [hw14-water.cpp, $@.exec]
-    
+    - [hw14-array.cpp, $@.exec]
+    - [hw14-linked.cpp, $@.exec]
+    - [hw14-stack.cpp, $@.exec]
+
