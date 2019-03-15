@@ -1,0 +1,15 @@
+---
+
+assignment: hw15
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw15-1.txt]
+  - [hw15-queue.cpp, *cpp]
+  - [hw15-explore.cpp, *cpp]
+
+tests:
+    - [hw15-queue.cpp, $@.exec]
+    - [hw15-explore.cpp, $@.exec]
