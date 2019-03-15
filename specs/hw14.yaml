@@ -4,7 +4,6 @@ assignment: hw14
 
 compilers: 
   - &cpp 'g++ -std=c++11 $@ -o $@.exec'
-
 files:
   - [hw14-1.txt]
   - [hw14-adding.cpp, *cpp]
@@ -13,8 +12,8 @@ files:
   - [hw14-stack.cpp, *cpp]
   
 tests:
-    - [hw14-adding.cpp, $@.exec]
-    - [hw14-doubling.cpp, $@.exec]
-    - [hw14-linked.cpp, $@.exec]
-    - [hw14-stack.cpp, $@.exec]
+  - [hw14-adding.cpp, $@.exec]
+  - [hw14-doubling.cpp, $@.exec]
+  - [hw14-linked.cpp, $@.exec]
+  - [hw14-stack.cpp, $@.exec]
 
