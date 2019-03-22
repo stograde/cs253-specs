@@ -1,0 +1,9 @@
+---
+
+assignment: hw17
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw17-1.txt]
