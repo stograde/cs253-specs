@@ -1,0 +1,14 @@
+---
+
+assignment: hw18
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw18-1.txt]
+  - [pqueue.cpp, *cpp]
+  - [dijkstra.cpp, *cpp]
+tests:
+  - [pqueue.cpp, $@.exec]
+  - [dijkstra.cpp, $@.exec]
