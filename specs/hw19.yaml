@@ -1,0 +1,13 @@
+---
+
+assignment: hw19
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw19-1.txt]
+  - [binheap.h]
+  - [hw19-water.cpp, *cpp]
+tests:
+  - [hw19-water.cpp, $@.exec]
