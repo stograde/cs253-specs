@@ -1,0 +1,14 @@
+---
+
+assignment: hw20
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw20-1.txt]
+  - [hw20-project.cpp, *cpp]
+  - [hw20-allcycles.cpp, *cpp]
+tests:
+  - [hw20-project.cpp, $@.exec]
+  - [hw20-allcycles.cpp, $@.exec]
