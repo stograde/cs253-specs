@@ -1,0 +1,17 @@
+---
+
+assignment: hw25
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw25-1.txt]
+  - [hw25-longest-sub.cpp, *cpp]
+  - [hw25-longest-slow.cpp, *cpp]
+  - [hw25-lcs.cpp, *cpp]
+
+tests:
+  - [hw25-longest-sub.cpp, $@.exec]
+  - [hw25-longest-slow.cpp, $@.exec]
+  - [hw25-longest-lcs.cpp, $@.exec]
