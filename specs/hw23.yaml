@@ -1,0 +1,12 @@
+---
+
+assignment: hw23
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw23-1.txt]
+  - [hw23-huff.cpp, *cpp]
+tests:
+  - [hw23-huff.cpp, $@.exec]
