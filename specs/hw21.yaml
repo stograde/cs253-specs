@@ -1,0 +1,12 @@
+---
+
+assignment: hw21
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw21-1.txt]
+  - [hw20-loopy.cpp, *cpp]
+tests:
+  - [hw20-loopy.cpp, $@.exec]
