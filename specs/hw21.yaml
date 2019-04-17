@@ -7,6 +7,6 @@ compilers:
 
 files:
   - [hw21-1.txt]
-  - [hw21-loopyy.cpp, *cpp]
+  - [hw21-loopy.cpp, *cpp]
 tests:
   - [hw21-loopy.cpp, $@.exec]
