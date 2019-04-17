@@ -1,0 +1,9 @@
+---
+
+assignment: hw22
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw22-1.txt]
