@@ -1,6 +1,6 @@
 ---
 
-assignment: hw21
+assignment: hw24
 
 compilers: 
   - &cpp 'g++ -std=c++11 $@ -o $@.exec'
