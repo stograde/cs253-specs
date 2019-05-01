@@ -1,0 +1,9 @@
+---
+
+assignment: hw29
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw29-1.txt]
