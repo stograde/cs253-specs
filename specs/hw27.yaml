@@ -1,0 +1,14 @@
+---
+
+assignment: hw27
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+files:
+  - [hw27-recursive.cpp, *cpp]
+  - [hw27-1.txt]
+  - [hw27-knap.cpp *cpp]
+
+tests:
+  - [hw27-recursive.cpp, $@.exec]
+  - [hw27-knap.cpp, $@.exec]
