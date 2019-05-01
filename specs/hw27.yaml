@@ -7,7 +7,7 @@ compilers:
 files:
   - [hw27-recursive.cpp, *cpp]
   - [hw27-1.txt]
-  - [hw27-knap.cpp *cpp]
+  - [hw27-knap.cpp, *cpp]
 
 tests:
   - [hw27-recursive.cpp, $@.exec]
