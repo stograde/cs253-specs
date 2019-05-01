@@ -1,0 +1,13 @@
+---
+
+assignment: hw26
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+  - [hw26-1.txt]
+  - [hw26-edit.cpp, *cpp]
+
+tests:
+  - [hw26-edit.cpp $@.exec]
