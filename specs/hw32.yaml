@@ -1,0 +1,12 @@
+---
+assignment: hw32
+
+compilers: 
+  - &cpp 'g++ -std=c++11 $@ -o $@.exec'
+
+files:
+- [hw32-1.txt]
+- [hw32-vc.cpp]
+
+tests:
+- [hw32-vc.cpp, $@.exec]
