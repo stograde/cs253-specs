@@ -1,0 +1,7 @@
+---
+assignment: hw33
+
+compilers:
+  - &cpp 'g++ --std=c++11 $@ -o $@.exec'
+files:
+  - [hw33-1.txt]
